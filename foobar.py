@@ -8,7 +8,7 @@ def one(a,b):
         one(a,b)
 
 
-x=input()
+x=input('Введите целое число больше 0 \n')
 if x.isdigit() and int(x)>0:
     print("ввод верный")
     x=int(x)
